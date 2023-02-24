@@ -1,0 +1,65 @@
+[
+  {
+    "id": "001",
+    "title": "O Python do vovô não sobe mais",
+    "cover": "/images/card-cover-01.png",
+    "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+    "location": "São Paulo - SP"
+  },
+  {
+    "id": "002",
+    "title": "Todo mundo null",
+    "cover": "/images/card-cover-02.png",
+    "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+    "location": "Florianópolis - SC"
+  },
+  {
+    "id": "003",
+    "title": "Hoje dou exception",
+    "cover": "/images/card-cover-03.png",
+    "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+    "location": "Curitiba - PR"
+  },
+  {
+    "id": "004",
+    "title": "Manda Node",
+    "cover": "/images/card-cover-04.png",
+    "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+    "location": "Salvador - BA"
+  },
+  {
+    "id": "005",
+    "title": "Só no back-end",
+    "cover": "/images/card-cover-05.png",
+    "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+    "location": "São Paulo - SP"
+  },
+  {
+    "id": "006",
+    "title": "Esse anel não é de Ruby",
+    "cover": "/images/card-cover-06.png",
+    "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+    "location": "São Paulo - SP"
+  },
+  {
+    "id": "007",
+    "title": "Pimenta no C# dos outros é refresco",
+    "cover": "/images/card-cover-07.png",
+    "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+    "location": "Rio de Janeiro - RJ"
+  },
+  {
+    "id": "008",
+    "title": "EnCACHE aqui",
+    "cover": "/images/card-cover-08.png",
+    "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+    "location": "Porto Alegre - RS"
+  },
+  {
+    "id": "009",
+    "title": "Não valho nada mas JAVA li",
+    "cover": "/images/card-cover-09.png",
+    "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+    "location": "São Paulo - SP"
+  }
+]
