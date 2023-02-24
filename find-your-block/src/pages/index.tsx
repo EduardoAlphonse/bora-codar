@@ -4,6 +4,7 @@ import { MagnifyingGlass, MapPin } from "phosphor-react";
 
 import { InputRoot, InputField } from "../components/Input";
 import { BlockCard } from "@/components/BlockCard";
+import { Button } from "@/components/Button";
 
 import illustration01 from "../assets/images/ilustra-01.png";
 import illustration02 from "../assets/images/ilustra-02.png";
@@ -34,7 +35,7 @@ export default function Home() {
               </h1>
             </div>
 
-            <form className="flex flex-col md:flex-row gap-6 bg-[#FFFFFFBB] p-10 border border-gray-200 rounded-[10px] w-full z-10">
+            <form className="flex flex-col md:flex-row gap-6 bg-[#FFFFFFBB] p-5 sm:p-10 border border-gray-200 rounded-[10px] w-full z-10">
               <InputRoot>
                 <MagnifyingGlass className="text-red-500 text-2xl" />
                 <InputField placeholder="Pesquise por nome" />
@@ -45,28 +46,37 @@ export default function Home() {
                 <InputField placeholder="Pesquise por cidade" />
               </InputRoot>
 
-              <button className="rounded-[5px] bg-indigo-500 px-8 py-3 text-sm text-white font-bold uppercase">
-                Buscar agora
-              </button>
+              <Button>Buscar agora</Button>
             </form>
 
             <Image
               src={illustration01}
               alt="Ilustração de Carnaval"
               className="absolute left-0 top-0 w-[400px] z-0"
+              priority={true}
             />
 
             <Image
               src={illustration02}
               alt="Ilustração de Carnaval"
               className="absolute right-0 bottom-0 w-[400px] z-0"
+              priority={true}
             />
           </div>
         </header>
 
         <div className="flex flex-col gap-10 max-w-[1140px] mx-auto my-[100px] px-5">
-          <div className="flex justify-between">
+          <div className="flex flex-col gap-2 sm:flex-row sm:justify-between sm:items-center">
             <h2 className="text-3xl font-bold">Blocos recomendados</h2>
+
+            <div className="flex p-2 border border-gray-200 rounded-md">
+              <Button size="small" style={{ flex: 1 }}>
+                Lista
+              </Button>
+              <Button size="small" style={{ flex: 1 }} buttonStyle="secondary">
+                Mapa
+              </Button>
+            </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

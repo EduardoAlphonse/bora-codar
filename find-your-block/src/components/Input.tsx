@@ -13,7 +13,7 @@ const InputRoot = ({ children }: RootProps) => {
 interface FieldProps extends InputHTMLAttributes<HTMLInputElement> {}
 
 const InputField = ({ type = "text", ...rest }: FieldProps) => {
-  return <input className="outline-none bg-gray-100" {...rest} />;
+  return <input className="outline-none bg-gray-100 w-full" {...rest} />;
 };
 
 export { InputRoot, InputField };
